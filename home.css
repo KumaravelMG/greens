@@ -157,12 +157,12 @@ font-size: 20px;
      
     height: 800px;
     overflow-y:scroll;
-    background-color: rgba(158, 233, 158, 0.222);
+   
     width: 100%;
-    border-top:  5px double green;
+    
     padding-top: 50px;
     position: relative;
-    box-shadow: 2px 3px 5px green;
+    
     margin: 1000px 0px 20px 0px;
      
     
@@ -313,12 +313,12 @@ font-size: 20px;
     width: 300px;
     height: 300px;
     display: inline-block;
-    background-color: yellowgreen;
+    
     margin: 100px 20px 30px 220px;
     text-align: center;
     font-size: 30px;
     overflow: hidden;
-    box-shadow: 20px 30px 80px black;
+    
     clip-path: circle(50%);
     
    
@@ -576,12 +576,12 @@ button:hover {
      
     height: 1000px;
     overflow-y:scroll;
-    background-color: rgba(158, 233, 158, 0.222);
+    
     width: 100%;
-    border-top:  5px double green;
+    
     padding-top: 50px;
     position: relative;
-    box-shadow: 2px 3px 5px green;
+   
     margin: 2402px 0px 20px 0px;
      
     
