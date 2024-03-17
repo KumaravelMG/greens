@@ -42,10 +42,12 @@ nav li a:hover{
 }
 
 .logo{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bolder;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: green;
-    text-shadow: 1px 2px 0 ;
+    letter-spacing: 2px;
+    
                 
                 
 }  
@@ -170,9 +172,7 @@ font-size: 20px;
      text-align: center;
      font-size: 60px;
      margin-top: 50px;
-     position: sticky;
-     top: 0;
-     background-color:whitesmoke;
+     
      
  
     
@@ -209,12 +209,313 @@ font-size: 20px;
  }
 
 
+/* blog */
+
+#blog{
+    height: 800px;
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0.523);
+    color: green;
+    border: 1px solid green;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    padding-top: 50px;
+
+}
+
+#bh{
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 2px 3px 6px black;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px 10px 10px 10px;
+    background-color: whitesmoke;
+   
+}
+
+#bp{
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 3px 4px black;
+    text-align: center;
+
+    margin: 50px;
+    text-transform: capitalize;
+
+}
+#bimg{
+    height: 400px;
+    width: 400px;
+    margin-left: 40%;
+    aspect-ratio: 16/9;
+    
+    
+    
+
+}
+#bimg:hover{
+    box-shadow: 2px 7px 5px green;
+    cursor: pointer;
+    border: 2px solid green;
+    
+}
+
+
+
+/* Shop section  */
+
+.cont{
+     
+    height: 2000px;
+    overflow-y:scroll;
+    background-color: rgba(158, 233, 158, 0.222);
+    width: 98%;
+    border-top:  5px double green;
+    padding-top: 50px;
+    position: relative;
+    box-shadow: 2px 3px 5px green;
+    margin: 2410px 30px 20px 30px;
+     
+    
+   
+     
+     
+ }
+ .chead{
+     text-align: center;
+     font-size: 60px;
+     margin-top: 10px;
+    
+     
+     color: green;
+ 
+    
+ 
+     
+ }
+ 
+ /* BOX  */
+ 
+ .box{
+     border: 2px solid white;
+     box-shadow: 2px 3px 5px green;
+     width: 350px;
+     height: 350px;
+     display: inline-block;
+     background-color: white;
+     margin: 100px 1px 5px 110px
+ }
+ .box:hover{
+     border: 2px solid black;
+     border-radius: 20px;
+     cursor: pointer;
+ }
+ .prs{
+     background-color: greenyellow;
+    
+     display: flex;
+     justify-content: center;
+     margin-top: 83%;
+     padding: 10px;
+     border-radius: 20px;
+    
+ }
+
+ 
+/* blog */
+
+#blog{
+    height: 1500px;
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0.523);
+    color: green;
+    border: 1px solid green;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    padding-top: 50px;
+
+}
+
+#bh{
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 2px 3px 6px black;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px 10px 10px 10px;
+    background-color: whitesmoke;
+   
+}
+
+#bp{
+    color: green;
+    font-size: 50px;
+    text-shadow: 2px 3px 4px black;
+    text-align: center;
+
+    margin:150px 50px 30px 50px;
+    text-transform: capitalize;
+
+}
+#bimg{
+    height: 400px;
+    width: 400px;
+    margin-left: 30%;
+ 
+    
+    
+    
+    
+
+}
+#bimg:hover{
+    box-shadow: 2px 7px 5px green;
+    cursor: pointer;
+    border: 2px solid green;
+    
+}
+
+/* About  */
+
+
+
+/* container */
+#about-container{
+    height: 900px;
+    background-color: white;
+    border: 2px solid green;
+    box-shadow: 6px 3px 8px black;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    
+
+}
+
+#about-container h1{
+    text-align: center;
+    font-size: 60px;
+    background-color: whitesmoke;
+    margin: 20px;
+    padding: 10px;
+    
+
+
+}
+
+#about-container h1:hover{
+    background-color: white;
+    
+    box-shadow: 2px 3px 4px black;
+    
+
+}
+
+/* Container box */
+
+.boxs{
+    border: 2px solid white;
+  
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: yellowgreen;
+    margin: 100px 20px 30px 220px;
+    text-align: center;
+    font-size: 30px;
+    overflow: hidden;
+    box-shadow: 20px 30px 80px black;
+    clip-path: circle(50%);
+    
+   
+}
+.boxs:hover{
+    border: 6px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    
+}
+
+#about-container h2,p {
+    text-align: center;
+    font-size: 30px;
+    margin: 2px 0 3px 0;
+    padding: 20px;
+
+
+}
+.container-text{
+    background-color: rgba(22, 160, 22, 0.793);
+    color: white;
+    margin: 100px 50px 20px 50px ;
+    padding: 10px;
+    
+}
+
+
+
+/* FORM */
+
+form{
+    border: 3px solid green;
+    color: green;
+    padding: 50px 30px ;
+    margin: 70px 500px;
+   
+    width: 50%;
+    
+    
+}
+.ch1{
+    color: green;
+    text-align: center;
+    text-transform: capitalize;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    font-size: 50px;
+
+}
+
+Label {
+    text-align: left;
+    font-size: 20px;
+    margin: 20px;
+
+}
+input,
+[type=text]
+ {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 20px 20px;
+
+}
+input:hover{
+    border: 2px solid green;
+    background-color: whitesmoke;
+
+ }
+
+input::placeholder{
+    font-size: 16px;
+    text-align: left;
+}
+#contact{
+    height: 800px;
+    height: 800px;
+}
+
 /* Media control for nav  */
 
 
 @media all and (max-width:1080px){
     nav{
         flex-direction: column;
+       
         
     }
     nav li{
@@ -230,14 +531,17 @@ font-size: 20px;
         
     }
     .logo{
-        align-self: flex-start;
-        margin: 10px 400px 30px 0px;
+        
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
        
     }
    .menu{
     display: block;
     position: absolute;
-    right: 20px;
+    left: 50px;
     top: 25px;
    }
    .showmenu{
@@ -277,7 +581,7 @@ h3{
     margin-top: 60%;
     margin-left: 40px;
     position: absolute;
-   
+   font-size: 20px;
     
 }
 
@@ -303,75 +607,145 @@ button:hover {
 
 /* IMG  */
 
-/* .laddy img{
+.laddy img{
     width: 100%;
-    height: 600px;
+    height: 2412px;
    
     
-} */
+}
 
 #home{
     width: 100%;
-    height: 110px;
-}
+    height: 2412px;
 }
 
-/* Shop section  */
+/* About */
 
-.cont{
-     
-    height: 1000px;
-    overflow-y:scroll;
-    background-color: rgba(158, 233, 158, 0.222);
-    width: 100%;
-    border-top:  5px double green;
+/* container */
+#about-container{
+    height: 2000px;
+    background-color: white;
+    border: 2px solid green;
+    box-shadow: 6px 3px 8px black;
+    margin-top: 60px;
+    margin-bottom: 60px;
     padding-top: 50px;
-    position: relative;
-    box-shadow: 2px 3px 5px green;
-    margin: 1110px 5px 20px 5px;
-     
+    
+    
+
+}
+
+#about-container h1{
+    text-align: center;
+    font-size: 60px;
+    background-color: rgb(11, 252, 23);
+    margin: 20px;
+    padding: 10px;
+    
+
+
+}
+
+#about-container h1:hover{
+    background-color: white;
+    color: rgb(1, 247, 34);
+    box-shadow: 2px 3px 4px rgb(1, 247, 34);
+    
+
+}
+
+/* Container box */
+
+.boxs{
+    border: 2px solid white;
+  
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: yellowgreen;
+    margin: 100px 20px 30px 350px;
+    text-align: center;
+    font-size: 30px;
+    overflow: hidden;
+    box-shadow: 20px 30px 80px black;
+    clip-path: circle(50%);
     
    
-     
-     
- }
- .chead{
-     text-align: center;
-     font-size: 60px;
-     margin-top: 50px;
-     position: sticky;
-     top: 0;
-     background-color:whitesmoke;
-     
- 
+}
+.boxs:hover{
+    border: 6px solid black;
+    border-radius: 50%;
+    cursor: pointer;
     
- 
-     
- }
- 
- /* BOX  */
- 
- .box{
-     border: 2px solid white;
-     box-shadow: 2px 3px 5px green;
-     width: 300px;
-     height: 300px;
-     display: inline-block;
-     background-color: white;
-     margin: 100px 2px 3px 70px
- }
- .box:hover{
-     border: 2px solid black;
-     border-radius: 20px;
-     cursor: pointer;
- }
- .prs{
-     background-color: greenyellow;
     
-     display: flex;
-     justify-content: center;
-     margin-top: 86%;
-     padding: 10px;
-     border-radius: 10px;
+}
+
+#about-container h2,p {
+    text-align: center;
+    font-size: 30px;
+    margin: 2px 0 3px 0;
+    padding: 20px;
+
+
+}
+.container-text{
+    background-color: rgba(22, 160, 22, 0.793);
+    color: white;
+    margin: 100px 50px 20px 50px ;
+    padding: 10px;
     
+}
+
+
+/* FORM */
+
+form{
+    border: 3px solid green;
+    color: green;
+    padding: 50px 30px ;
+    margin: 70px 250px;
+   
+    width: 50%;
+    
+    
+}
+.ch1{
+    color: green;
+    text-align: center;
+    text-transform: capitalize;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    font-size: 50px;
+
+}
+
+Label {
+    text-align: left;
+    font-size: 20px;
+    margin: 20px;
+
+}
+input,
+[type=text]
+ {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 20px 20px;
+
+}
+input:hover{
+    border: 2px solid green;
+    background-color: whitesmoke;
+
  }
+
+input::placeholder{
+    font-size: 16px;
+    text-align: left;
+}
+#contact{
+    height: 800px;
+    height: 800px;
+}
+
+}
