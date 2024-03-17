@@ -276,8 +276,8 @@ font-size: 20px;
 #about-container{
     height: 900px;
     background-color: white;
-    border: 2px solid green;
-    box-shadow: 6px 3px 8px black;
+    
+    
     margin-top: 60px;
     margin-bottom: 60px;
     padding-top: 50px;
@@ -451,6 +451,7 @@ input::placeholder{
         z-index: 1;
         align-items: flex-start;
         justify-content: center;
+        
           
     }
     h2,
@@ -472,7 +473,7 @@ h3{
     margin-top: 60%;
     margin-left: 40px;
     position: absolute;
-   font-size: 15px;
+   font-size: 20px;
     
 }
 
@@ -639,8 +640,8 @@ button:hover {
 #about-container{
     height: 2000px;
     background-color: white;
-    border: 2px solid green;
-    box-shadow: 6px 3px 8px black;
+    
+    
     margin-top: 60px;
     margin-bottom: 60px;
     padding-top: 50px;
